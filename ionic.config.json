@@ -1,0 +1,7 @@
+{
+  "name": "Blood-Bank",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
