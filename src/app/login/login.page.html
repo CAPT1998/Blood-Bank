@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar class="tool">
+    <ion-title>Blood Bank</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Login</h1>
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input [(ngModel)]="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input [(ngModel)]="password"></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" class="ion-margin-vertical" (click)="login()">LOGIN</ion-button>
+  <ion-button expand="block" class="ion-margin-vertical" routerLink="/phoneauth" routerDirection="forward" >Login with phone</ion-button>
+  <!--
+    <ion-button type="button" expand="block" color="tertiary">
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      Sign in with Google
+    </ion-button>
+    -->
+    <div class="ion-text-center">
+      Don't have an account? <span routerLink="/registration" routerDirection="forward"><strong>SignUp</strong></span>
+    </div>
+
+
+
+  </ion-content>

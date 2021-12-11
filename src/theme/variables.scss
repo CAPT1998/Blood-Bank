@@ -10,6 +10,7 @@
   --ion-color-primary-contrast-rgb: 255, 255, 255;
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
+  --ion-font-family: 'AndadaPro-VariableFont_wght';
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -75,7 +76,12 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
-
+@font-face {
+  font-family: 'AndadaPro-VariableFont_wght';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/AndadaPro-VariableFont_wght.ttf');
+}
 @media (prefers-color-scheme: dark) {
   /*
    * Dark Colors
